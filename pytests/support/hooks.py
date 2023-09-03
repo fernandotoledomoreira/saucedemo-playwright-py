@@ -1,5 +1,4 @@
 import pytest
-import os
 from dotenv import load_dotenv
 from pytests.support.log_service import LogService
 from pytests.support.utils import Utils

@@ -1,3 +1,4 @@
+import os
 import allure
 from pytests.support.hooks import *
 
