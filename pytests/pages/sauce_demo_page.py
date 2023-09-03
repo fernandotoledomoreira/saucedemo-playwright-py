@@ -236,8 +236,8 @@ class SaucedemoPage:
             ScreenshotService.take_screenshot(page)
         else:
             value = Common.values_change(value)
-            SaucedemoPage.field_first_name(page).fill(Faker.first_name())
-            SaucedemoPage.field_last_name(page).fill(Faker.last_name())
+            SaucedemoPage.field_first_name(page).fill(Faker().first_name())
+            SaucedemoPage.field_last_name(page).fill(Faker().last_name())
             SaucedemoPage.field_zip_code(page).fill(value)
             ScreenshotService.take_screenshot(page)
 
