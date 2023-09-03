@@ -23,6 +23,8 @@ O Tamplete utilizando Python, Pytest, Playwight, Allure e Faker para realizar te
 ## Execução
 
 Utilizando os players do prórpio VSCODE
+Via terminal com (pytest -k test_saucedemo)
+Utilizando paralelismo (pytest -k test_saucedemo -n auto)
 
 ![descrição da imagem](execution.png)
 
